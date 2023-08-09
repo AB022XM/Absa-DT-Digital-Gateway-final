@@ -1,0 +1,180 @@
+
+entity  AmolTransactions
+{
+  amolTranId UUID unique,
+
+
+}
+
+
+entity  Acounts
+{
+  accountId UUID unique,
+
+
+}
+
+entity  Transactions
+{
+  transactionId UUID unique,
+
+
+}
+
+entity  TransactionsRetries
+{
+  transactionRetriesId UUID unique,
+
+
+}
+
+entity  Customers
+{
+  customerId UUID unique,
+
+
+}
+
+entity  Billers
+{
+  transactionId UUID unique,
+
+
+}
+
+
+
+entity  IncomingRequests
+{
+  inRequestId UUID unique,
+
+
+
+}
+
+entity  OutGoingRequest
+{
+  outGoingRequestId UUID unique,
+
+
+}
+
+
+entity  IncomingResponses
+{
+  inResponseId UUID unique,
+
+}
+
+
+entity  ServicesT
+{
+  serviceId UUID unique,
+
+}
+
+entity  OutGoingResponses
+{
+  outResponseId UUID unique,
+
+
+}
+
+
+
+
+entity  Banks
+{
+  bankId UUID unique,
+
+}
+
+
+entity  Branches
+{
+  branchId UUID unique,
+
+}
+
+
+
+entity  AuditTrail
+{
+  trailId UUID unique,
+
+}
+
+
+entity  Products
+{
+  branchId UUID unique,
+
+}
+
+entity  Errors
+{
+  errorId UUID unique,
+
+}
+
+
+entity  ConfigsT
+{
+  branchId UUID unique,
+
+}
+
+entity  AppsT
+{
+  branchId UUID unique,
+
+}
+entity  HostsTAllowed
+{
+  hostId UUID unique,
+
+}
+
+entity  Currencies
+{
+  currencyId UUID unique,
+
+}
+
+entity  Channels
+{
+  channelId UUID unique,
+
+}
+
+
+entity  Requests
+{
+  reqId UUID unique,
+
+}
+
+
+entity  Responses
+{
+  respId UUID unique,
+
+}
+
+entity  BillerAccounts
+{
+  billerAccountId UUID unique,
+
+}
+
+entity  TransactionAudits
+{
+  tranAuditId UUID unique,
+
+}
+
+
+
+
+
+
